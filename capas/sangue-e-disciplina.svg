@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1017" viewBox="0 0 720 1017" role="img" aria-labelledby="title desc">
+  <title id="title">Sangue e Disciplina: O Preço de Ser Homem</title>
+  <desc id="desc">Capa em tons preto, vermelho escuro, bege e dourado para o livro Sangue e Disciplina.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090807"/>
+      <stop offset="0.55" stop-color="#160b08"/>
+      <stop offset="1" stop-color="#3a0d08"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="62%" r="55%">
+      <stop offset="0" stop-color="#8f1b0e" stop-opacity=".52"/>
+      <stop offset="1" stop-color="#130906" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".72" numOctaves="2" seed="9"/><feColorMatrix values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 .09 0"/></filter>
+  </defs>
+  <rect width="720" height="1017" fill="url(#bg)"/>
+  <rect width="720" height="1017" fill="url(#glow)"/>
+  <rect width="720" height="1017" filter="url(#grain)" opacity=".28"/>
+
+  <g fill="#ead8b0" font-family="Impact, Arial Black, sans-serif" text-anchor="middle" letter-spacing="2">
+    <text x="360" y="120" font-size="94">SANGUE E</text>
+    <text x="360" y="222" font-size="86">DISCIPLINA</text>
+  </g>
+  <text x="360" y="292" fill="#b73520" font-family="Arial Black, sans-serif" font-size="39" text-anchor="middle" letter-spacing="5">O PREÇO DE SER HOMEM</text>
+
+  <g transform="translate(360 610)" fill="#c38d24" stroke="#18100a" stroke-width="9" stroke-linejoin="round">
+    <path d="M-54-170 C-104-150-128-104-112-58 C-156-40-198-2-216 48 C-232 94-208 134-170 142 C-144 148-118 130-100 104 L-74 65 L-44 92 L-70 144 C-84 173-74 208-48 220 C-17 234 15 215 28 184 L47 139 L80 145 L112 194 C130 222 164 232 190 216 C218 199 225 164 208 136 L170 73 C153 47 128 25 99 11 C117-17 121-49 106-79 C83-125 23-154-54-170Z"/>
+    <path d="M-61-171 C-45-203-11-221 21-211 C51-202 72-172 66-141 C58-103 30-77-2-68 C-27-61-52-73-67-94 C-82-115-81-144-61-171Z"/>
+    <path d="M-140 52 C-92 18-56-7-24-8 C15-10 50 11 79 48 L34 89 C12 69-4 58-25 60 C-53 63-78 84-101 113Z" fill="#0e0c09" stroke="#c38d24" stroke-width="12"/>
+    <path d="M82 14 C122-11 164-2 188 32 C205 56 207 88 191 116 L151 96 C159 77 155 61 143 51 C129 38 109 39 91 50Z"/>
+    <path d="M-178 95 C-157 64-130 42-101 34 L-77 76 C-101 88-117 104-130 126Z"/>
+  </g>
+
+  <line x1="110" y1="904" x2="610" y2="904" stroke="#7a1b12" stroke-width="2"/>
+  <text x="360" y="948" fill="#d9c394" font-family="Georgia, serif" font-size="24" text-anchor="middle" letter-spacing="3">ANTARRÁ EDITORA</text>
+</svg>
