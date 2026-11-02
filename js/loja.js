@@ -18,7 +18,7 @@ function preco(versao) {
 function criarLink(versao, classe, texto) {
   const url = linkSeguro(versao.link);
   if (!url) {
-    const indisponivel = elemento("span", classe, versao.idioma + " — em breve");
+    const indisponivel = elemento("span", classe, versao.idioma + " — indisponível");
     return indisponivel;
   }
   const a = elemento("a", classe, texto);
@@ -62,7 +62,7 @@ function criarLivro(livro) {
   if (!livro.prototipo && preco(versao)) info.append(elemento("p", "price", (livro.versoes.length > 1 ? versao.idioma + " · " : "") + preco(versao)));
   let botao;
   if (livro.prototipo || (livro.versoes.length === 1 && !linkSeguro(versao.link))) {
-    botao = elemento("button", "button", livro.prototipo ? "Disponível em breve" : "Em breve");
+    botao = elemento("button", "button", "Indisponível");
     botao.disabled = true;
   } else if (livro.versoes.length === 1) {
     botao = criarLink(versao, "button", versao.comprar || "Comprar");
@@ -84,8 +84,9 @@ async function carregarCatalogo() {
     if (!Array.isArray(livros) || livros.some(l => !l || !Array.isArray(l.versoes) || !l.versoes.length || l.versoes.some(v => !v || typeof v.titulo !== "string"))) throw new Error("Revise os livros e suas versões no JSON");
     areas.forEach(area => {
       area.replaceChildren();
-      if (!livros.length) area.append(elemento("p", "", "Novas histórias em breve."));
-      livros.forEach(livro => area.append(criarLivro(livro)));
+      const publicados = livros.filter(livro => !livro.prototipo);
+      if (!publicados.length) area.append(elemento("p", "", "Nenhum livro disponível no catálogo."));
+      publicados.forEach(livro => area.append(criarLivro(livro)));
     });
   } catch (erro) {
     areas.forEach(area => area.replaceChildren(elemento("p", "", "Não foi possível carregar a estante. Tente novamente mais tarde.")));

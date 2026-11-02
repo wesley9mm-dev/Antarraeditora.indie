@@ -17,7 +17,7 @@ Abra pelo servidor: dar dois cliques no HTML pode impedir o carregamento do JSON
 - `js/loja.js`: carrega o catálogo automaticamente; não precisa editar ao adicionar livros.
 
 ## O exemplo atual
-Há somente um protótipo, com capa genérica original em SVG, sem obra real e sem compra ativa.
+O exemplo permanece no JSON para você copiar, mas não aparece no site enquanto tiver `prototipo: true`. A página inicial usa uma ilustração editorial independente do catálogo.
 Você pode substituir a capa por JPG, PNG, WebP ou SVG. O nome e as letras maiúsculas/minúsculas do caminho devem coincidir com o arquivo.
 
 ## Adicionar seu primeiro livro
@@ -88,7 +88,7 @@ Não crie outro livro nem outra página HTML.
 - O cartão usa título e descrição da primeira versão; o seletor mostra os dados das demais.
 - O campo `comprar` personaliza o botão quando há uma versão.
 - Link vazio ou inválido: versão indisponível. Use links completos começando com `https://`.
-- `prototipo: true` desativa a compra do livro inteiro.
+- `prototipo: true` oculta o livro do catálogo público. Use `false` para publicar seu livro.
 - Para deixar a estante vazia, use apenas `[]`.
 
 ## Cuidados com o JSON
@@ -100,7 +100,7 @@ Não inclua arquivos PDF pagos neste repositório público; cadastre a entrega d
 ## Cores e contato
 As cores ficam no início de `css/style.css`: marinho, azul real, ciano, branco-gelo e lavanda.
 A arte genérica usa apenas formas geométricas, sem personagens ou elementos de Hollow Knight.
-Em `contato.html`, substitua o aviso pelos seus canais oficiais quando estiverem prontos.
+Em `contato.html`, adicione seus canais oficiais de atendimento.
 Não há formulário nem endereço de e-mail fictício.
 
 ## Publicar no GitHub Pages (opcional)
