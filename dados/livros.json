@@ -15,6 +15,11 @@
         "comprar": "Comprar",
         "link": ""
       }
-    ]
+    ],
+    "genero": "Outros",
+    "descricaoCurta": "Um exemplo para cadastrar seu próximo livro.",
+    "sinopse": "Substitua este texto pela sinopse completa do livro.",
+    "formato": "PDF",
+    "idiomaOriginal": "pt-BR"
   }
 ]
