@@ -21,5 +21,29 @@
     "sinopse": "Substitua este texto pela sinopse completa do livro.",
     "formato": "PDF",
     "idiomaOriginal": "pt-BR"
+  },
+  {
+    "id": "sangue-e-disciplina",
+    "capa": "capas/sangue-e-disciplina.svg",
+    "autor": "",
+    "genero": "Desenvolvimento Pessoal",
+    "descricaoCurta": "Um chamado à disciplina, responsabilidade, fé, autodomínio e propósito em uma era dominada por distrações e conforto.",
+    "sinopse": "Em uma época marcada pelo excesso de conforto, distrações constantes e busca por prazer imediato, muitos homens perderam algo essencial: o domínio sobre si mesmos. Sangue e Disciplina: O Preço de Ser Homem é um chamado à reconstrução — uma obra direta sobre disciplina, responsabilidade, fé, força, propósito e o preço necessário para deixar para trás uma vida governada por impulsos. Ao longo do livro, o leitor percorre uma jornada que começa na crise do homem moderno e avança pela construção do autodomínio, pelo controle da própria força, pela maturidade nos relacionamentos e pela responsabilidade de construir um legado. Aqui, disciplina não é apresentada como castigo, mas como liberdade: a capacidade de fazer o que precisa ser feito mesmo quando não existe motivação, aplauso ou recompensa imediata. Entre fé, família, honra, corpo, mente e missão, o livro propõe uma pergunta incômoda: quem está realmente no comando da sua vida?",
+    "paginas": 93,
+    "formato": "PDF",
+    "idiomaOriginal": "pt-BR",
+    "prototipo": false,
+    "versoes": [
+      {
+        "idioma": "Português (Brasil)",
+        "codigo": "pt-BR",
+        "titulo": "Sangue e Disciplina: O Preço de Ser Homem",
+        "descricao": "Um chamado à disciplina, responsabilidade e propósito.",
+        "preco": "",
+        "moeda": "R$",
+        "comprar": "COMPRAR",
+        "link": "https://pay.hotmart.com/B108305833V"
+      }
+    ]
   }
 ]
