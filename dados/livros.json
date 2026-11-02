@@ -1,0 +1,20 @@
+[
+  {
+    "id": "livro-prototipo",
+    "capa": "capas/prototipo.svg",
+    "autor": "Antarrá Editora",
+    "prototipo": true,
+    "versoes": [
+      {
+        "idioma": "Português",
+        "codigo": "pt-BR",
+        "titulo": "Uma história por vir",
+        "descricao": "Este é apenas um exemplo de como os futuros livros aparecerão na estante. Capa e informações ilustrativas.",
+        "preco": "",
+        "moeda": "R$",
+        "comprar": "Comprar",
+        "link": ""
+      }
+    ]
+  }
+]
